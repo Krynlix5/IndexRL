@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web1 - Miguel</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            color: red; /* Título en rojo */
+            font-size: 3rem;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        header h2 {
+            color: #555; /* Subtítulo en gris */
+            font-size: 1.5rem;
+            margin: 0.5rem 0 0;
+            font-weight: normal;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f9f9f9;
+            padding: 1rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #333;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff7e5f;
+        }
+
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        section h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #ff7e5f;
+            padding-bottom: 0.5rem;
+        }
+
+        section p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #f9f9f9;
+            border-top: 1px solid #ddd;
+            margin-top: 2rem;
+        }
+
+        .highlight {
+            color: #ff7e5f;
+            font-weight: bold;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff7e5f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ff5c33;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Web1</h1> <!-- Título en rojo -->
+        <h2>Soy Miguel, esta es web1</h2> <!-- Subtítulo personalizado -->
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#acerca">Acerca de</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>Hola, soy <span class="highlight">Miguel</span>. Esta es mi primera página web, diseñada para compartir información sobre mí y mis proyectos. ¡Espero que te guste!</p>
+            <a href="#contacto" class="button">Contáctame</a>
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de mí</h2>
+            <p>Soy un desarrollador apasionado por la tecnología y el diseño. Me encanta crear soluciones innovadoras y aprender nuevas habilidades todos los días.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Mis servicios</h2>
+            <ul>
+                <li>Diseño de páginas web modernas y responsivas.</li>
+                <li>Desarrollo de aplicaciones web personalizadas.</li>
+                <li>Optimización SEO para mejorar el posicionamiento en buscadores.</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de mi correo electrónico: <a href="mailto:miguel@example.com">miguel@example.com</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Web1 - Miguel. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
